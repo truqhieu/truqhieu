@@ -44,19 +44,6 @@ Here are the tools and technologies I work with:
 
 ---
 
-## 🎨 Featured Projects
-
-Here are a few highlights from my work:
-
-### Project 1: **Awesome Web App**
-- **Tech:** React.js, Node.js, MongoDB
-- **Description:** A web to help user book ticket to watch any film in cinema by easy way
-
-### Project 2: **Social Media App**
-- **Tech:** React Native
-- **Description:** An App like Facebook to help people connect together
-
----
 
 ## 🚀 Stats and Contributions
 
