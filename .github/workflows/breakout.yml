@@ -1,28 +1,33 @@
-
 name: generate breakout svg
 
 on:
-  schedule:
-    - cron: "0 */24 * * *"   # chạy 1 lần mỗi ngày
-  workflow_dispatch:
+  push:
+    branches: [main]
+  workflow_dispatch:  # Cho phép chạy thủ công từ tab Actions
+
+permissions:
+  contents: write
 
 jobs:
-  generate-svg:
-    permissions:
-      contents: write
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
       - name: Generate breakout svg
-        uses: cyprieng/github-breakout@v1.0.0
+        run: |
+          echo '<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+          <rect width="200" height="200" fill="black"/>
+          <circle cx="100" cy="100" r="50" fill="red"/>
+          </svg>' > breakout.svg
 
       - name: Commit files
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add .
-          git commit -m "update breakout svg"
+          git pull origin main || true
+          git add breakout.svg
+          git commit -m "update breakout svg" || echo "No changes to commit"
           git push
