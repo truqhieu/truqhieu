@@ -44,15 +44,17 @@ Here are the tools and technologies I work with:
 
 ---
 
-## 🎮 Github Breakout
-
-<p align="center">
-  <!-- Hiển thị cho Light mode -->
-  <img src="./breakout-light.svg#gh-light-mode-only" width="600" alt="GitHub Breakout game in light mode"/>
-  
-  <!-- Hiển thị cho Dark mode -->
-  <img src="./breakout-dark.svg#gh-dark-mode-only" width="600" alt="GitHub Breakout game in dark mode"/>
-</p>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="images/breakout-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="images/breakout-light.svg"
+  />
+  <img alt="Breakout Game" src="images/breakout-light.svg" />
+</picture>
 
 ## 🚀 Stats and Contributions
 
