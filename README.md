@@ -27,16 +27,6 @@ Here are the tools and technologies I work with:
 
 ---
 
-## 🔍 What I'm Working On
-
--Searching for opportunities to work on projects related to Node.js, JavaScript, and React.js.
-
--Learning and exploring advanced concepts in TypeScript for building robust and scalable applications.
-
--Enhancing my technical and problem-solving skills through continuous learning and practice.
-
----
-
 ## 🔗 Let's Connect
 
 - 📧 Email: [trunghieu2003hhh@gmail.com](mailto:trunghieu2003hhh@gmail.com)
