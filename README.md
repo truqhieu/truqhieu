@@ -46,10 +46,5 @@ Here are the tools and technologies I work with:
   <img alt="Breakout Game" src="images/breakout-light.svg" />
 </picture>
 
-## 🚀 Stats and Contributions
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=truqhieu&show_icons=true&theme=radical)
-
-
 ---
 
